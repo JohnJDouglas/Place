@@ -1,0 +1,128 @@
+.panel-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-top {
+  background: lightslategrey;
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+
+.panel-middle {
+  background: #DDDDDD;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.panel-bottom {
+  background: lightslategrey;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-bottom-inner {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-color-display {
+  height: 50%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+}
+
+.div-time-display {
+  height: 50%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+}
+
+.pane-color-container {
+  height: 50%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-color {
+  outline: 0;
+  border: 0;
+  display: flex;
+  flex: 1;
+}
+
+.div-title {
+  color: white;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.div-settings {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-settings-inner {
+  background: lightcoral;
+  height: 50%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.div-author {
+  color: white;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.div-model {
+  height: 100%;
+  width: 100%;
+}
+
+.svg-model {
+  background: #DDDDDD;
+  height: 100%;
+  width: 100%;
+}
+
+.svg-square {
+  fill: #FFFFFF;
+  stroke: #000000;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.svg-overlay {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1;
+}
